@@ -102,7 +102,7 @@ def gen(type, mod):
     for item in itemsList:
         inStock = (mod * float(item['avail']) * random.uniform(1.0, 4.0)) > 1
         if inStock:
-            num = random.randint(int(item['min']), round(int(item['max']) * mod))
+            num = random.randint(int(item['min']), int(item['min']) if ceil(int(item['max']) * mod) < int(item['min']) else ceil(int(item['max']) * mod))
             price = random.uniform(float(item['price']) * 0.8, float(item['price']) * 1.35)
             if price < 0.1:
                 price = 0.1

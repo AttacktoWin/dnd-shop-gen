@@ -1,0 +1,74 @@
+Padded Armor,5,0.85,1,10
+Leather Armor,10,0.75,1,7
+Studded Leather Armor,45,0.6,1,6
+Hide Armor,10,0.85,1,10
+Club,0.1,0.2,1,4
+Dagger,2,0.9,2,30
+Greatclub,0.2,0.2,1,20
+Handaxe,5,0.95,3,20
+Light Hammer,2,0.87,2,10
+Quarterstaff,0.2,0.8,2,10
+Light Crossbow,25,0.85,1,15
+Dart,0.05,0.68,4,25
+Shortbow,25,0.9,2,20
+Sling,0.1,0.87,3,30
+Whip,2,0.7,1,25
+Blowgun,10,0.7,2,15
+Hand Crosswbow,75,0.8,1,20
+Heavy Crossbow,50,0.7,1,15
+Longbow,50,0.85,1,10
+Arrows (20),1,0.99,3,50
+Blowgun Needles (50),1,0.99,2,30
+Crossbow Bolts (20),1,0.99,3,50
+Sling Bullets (20),4,0.98,2,30
+Backpack,2,0.9,2,20
+Bedroll,1,0.98,1,20
+Blanket,0.5,0.98,2,15
+Block and Tackle,1,0.7,1,10
+Candle,0.01,0.88,5,50
+Chain (10 ft.),5,0.88,2,30
+Chest,5,0.79,1,8
+Climber's Kit,25,0.75,1,6
+Traveler's Clothes,2,0.85,3,20
+Crowbar,2,0.67,1,8
+Flask,2,0.85,3,25
+Grappling Hook,2,0.6,1,10
+Hammer,1,0.89,4,30
+Healer's Kit,5,0.9,2,20
+Hourglass,25,0.8,1,8
+Hunting Trap,5,0.89,2,15
+Ink (1 oz.),10,0.92,5,35
+Ink Pen,0.02,0.92,5,35
+Jug,2,0.95,3,25
+Ladder (10 ft.),1,0.8,2,12
+Bullseye Lantern,10,0.8,1,10
+Hooded Lantern,5,0.8,1,10
+Lock,10,0.85,3,25
+Mess Kit,0.2,0.8,1,10
+Mirror,5,0.64,1,7
+Paper (1 sheet),0.2,0.7,5,50
+Parchment (1 sheet),0.1,0.64,5,50
+Miner's Pick,2,0.72,2,15
+Piton,0.05,0.85,4,35
+Pole (10 ft.),0.05,0.72,1,10
+Iron Pot,2,0.86,1,5
+Pouch,0.5,0.99,4,40
+Quiver,1,0.9,3,40
+Rations (1 day),0.5,5,4,60
+Hempen Rope (50 ft.),1,0.98,2,25
+Silk Rope (50 ft.),10,0.9,2,25
+Sack,0.01,0.99,4,40
+Shovel,2,0.9,2,25
+Signal Whistle,5,0.74,2,20
+Signet Ring,5,0.55,1,15
+Spyglass,1000,0.5,1,10
+Tent (two-person),2,0.67,2,10
+Tinderbox,0.5,0.98,3,35
+Torch,0.01,0.99,5,45
+Vial,1,0.9,6,50
+Waterskin,0.2,0.99,6,30
+Cartographer's Tools,15,0.8,2,10
+Jeweler's Tools,25,0.65,1,7
+Tinker Tools,50,0.75,1,12
+Herbalism Kit,5,0.9,4,20
+Navigator's Tools,25,0.85,1,15

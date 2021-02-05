@@ -1,0 +1,41 @@
+Acid (vial),25,0.7,1,7
+Alchemist's Fire (flask),50,0.6,1,5
+Antitoxin (vial),50,0.65,1,4
+"Bottle, glass",2,1,1,15
+Component Pouch,25,0.4,1,4
+Flask,0.02,0.8,2,15
+Healer's Kit,5,0.4,1,10
+Ink (1 ounce bottle),10,0.8,2,15
+Jug,0.02,0.8,2,15
+Oil (flask),0.1,0.8,2,15
+Perfume (vial),5,0.6,1,12
+"Poison, Basic (vial)",100,0.5,1,8
+Vial,1,0.8,2,20
+Alchemist's Supplies,50,0.65,1,4
+Brewer's Supplies,20,0.65,1,4
+Cook's Utensils,1,0.7,1,5
+Herbalism Kit,5,0.85,1,10
+Poisoner's Kit,50,0.4,1,3
+(C) Climbing,50,0.6,1,4
+(C) Healing,50,4,2,16
+(U) Animal Friendship,250,0.35,1,3
+(U) Fire Breath,250,0.4,1,4
+(U) Greater Healing,250,0.6,1,5
+(U) Growth,250,0.375,1,3
+(U) Oil of Slipperiness,250,0.35,1,4
+(U) Philter of Love,250,0.5,1,6
+(U) Poison (disguised as potion),250,0.35,1,3
+(U) Resistance,250,0.4,1,6
+(U) Water Breathing,250,0.35,1,6
+(R) Clairvoyance,2500,0.25,1,3
+(R) Diminution,2500,0.3,1,3
+(R) Elixer of Health,2500,0.25,1,3
+(R) Fire Giant Strength,2500,0.2,1,2
+(R) Frost Giant Strength,2500,0.2,1,1
+(R) Gaseous Form,2500,0.2,1,2
+(R) Heroism,2500,0.25,1,2
+(R) Invulnerability,2500,0.15,1,1
+(R) Mind Reading,2500,0.1,1,1
+(R) Oil of Etherealness,2500,0.2,1,1
+(R) Stone Giant Strength,2500,0.125,1,1
+(R) Superior Healing,2500,0.25,1,3

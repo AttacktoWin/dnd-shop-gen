@@ -1,0 +1,28 @@
+Abacus,2,0.65,1,5
+Crystal,10,0.7,1,8
+Orb,21,0.65,1,5
+Rod,10,0.8,1,10
+Staff,5,0.8,1,15
+Wand,10,0.8,1,15
+"Bottle, glass",2,0.75,1,20
+Candle,0.01,0.8,2,15
+"Case, Map or Scroll",1,0.7,1,8
+Component Pouch,25,0.8,1,15
+Sprig of Mistletoe,1,0.65,1,20
+Totem,1,0.6,1,15
+Wooden Staff,5,0.7,1,15
+Yew Wand,10,0.65,1,15
+Hourglass,25,0.8,1,10
+Ink (1 ounce bottle),10,4,2,30
+Ink Pen,0.02,3.75,2,20
+Paper (one sheet),0.2,5,5,50
+Parchment (one sheet),0.1,4,2,25
+Pouch,0.5,0.75,1,20
+Robes,1,0.7,1,15
+Spellbook,50,0.85,1,10
+Vial,1,2,4,20
+Alchemist's Supplies,50,0.75,1,5
+Calligrapher's Supplies,10,0.65,1,3
+Lute,35,0.5,1,3
+Lyre,30,0.5,1,3
+Magic Appraisal (Identify),100,5,1,1000

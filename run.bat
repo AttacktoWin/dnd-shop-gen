@@ -1,2 +1,2 @@
-./ShopGen.py
+start ShopGen.py
 pause

@@ -108,10 +108,10 @@ def gen(type, mod):
                 price = 0.1
             stock.append({ 'name': item['name'], 'num': num, 'price': round(price, 1) })
 
-    print('Item Name                       | Price | Stock')
+    print('Item Name                       |  Price  | Stock')
     print(divider)
     for item in stock:
-        line = '%-31s | %5.1f | %d'
+        line = '%-31s | %7.1f | %d'
         print(line % (item['name'], item['price'], item['num']))
 
 main()

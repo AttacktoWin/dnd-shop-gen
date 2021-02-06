@@ -1,7 +1,9 @@
 import random
 from math import floor, ceil
+from os.path import isdir
+from os import mkdir
 
-divider = '-------------------------------------------------'
+divider = '-----------------------------------------------------\n'
 
 def main():
     validSize = False
@@ -34,6 +36,8 @@ def main():
     if toFile.lower().strip() in ('y', 'yes', 'ye'):
         fileName = input('What file name? (Outputs to ./Shops/[filename].txt) ')
         try:
+            if not isdir('./Shops/'):
+                mkdir('./Shops/')
             with open('./Shops/' + fileName.strip() + '.txt', 'w') as file:
                 file.write(inventory)
                 print('Saved!')
@@ -92,11 +96,14 @@ def spells(mod):
         scroll['price'] = random.randint(580, 1200)
         stock.append(scroll)
 
-    print('Spell Name                       | Price | Level')
-    print(divider)
+    inventory = ''
+    inventory += 'Spell Name                       | Price(gp) | Level\n'
+    inventory += divider
     for spell in stock:
-        line = '%-32s | %5d | %s'
-        print(line % (spell['name'], spell['price'], spell['level']))
+        line = '%-32s | %9d | %s\n'
+        inventory += line % (spell['name'], spell['price'], spell['level'])
+    print(inventory)
+    return inventory
 
 def gen(type, mod):
     itemsList = []
@@ -117,10 +124,10 @@ def gen(type, mod):
                 price = 0.1
             stock.append({ 'name': item['name'], 'num': num, 'price': round(price, 1) })
     inventory = ''
-    inventory += 'Item Name                       |  Price  | Stock\n'
-    inventory += divider + '\n'
+    inventory += 'Item Name                       | Price(gp) | Stock\n'
+    inventory += divider
     for item in stock:
-        line = '%-31s | %7.1f | %d\n'
+        line = '%-31s | %9.1f | %d\n'
         inventory += line % (item['name'], item['price'], item['num'])
     print(inventory)
     return inventory

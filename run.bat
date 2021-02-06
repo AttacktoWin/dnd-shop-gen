@@ -1,0 +1,2 @@
+./ShopGen.py
+pause

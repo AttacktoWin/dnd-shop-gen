@@ -10,4 +10,4 @@ The following shops are supported:
 * Jeweler
 * Smith
 * Tailor
-* Spell Scrolls
+* Spells

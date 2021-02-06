@@ -1,2 +1,0 @@
-start ShopGen.py
-pause

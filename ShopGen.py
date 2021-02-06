@@ -20,16 +20,25 @@ def main():
             print('Invalid entry.')
 
     mod = size / 5
-    shop = input('What type of shop? ').lower()
-    if shop == 'spells': spells(mod)
-    elif shop == 'adventure': gen('Adventure', mod)
-    elif shop == 'alchemist': gen('Alchemist', mod)
-    elif shop == 'artificer': gen('Artificer', mod)
-    elif shop == 'general': gen('General', mod)
-    elif shop == 'smith': gen('Smith', mod)
-    elif shop == 'jeweler': gen('Jeweler', mod)
-    elif shop == 'tailor': gen('Tailor', mod)
-    else: print('Invalid shop type: %s' % shop)
+    shop = input('What type of shop? ')
+    types = ('spells', 'adventure', 'alchemist', 'artificer', 'general', 'smith', 'jeweler', 'tailor')
+    inventory = ''
+    if shop.lower().strip() not in types:
+        print('Invalid shop type: %s' % shop)
+    else:
+        if shop.lower().strip() == 'spells':
+            inventory = spells(mod)
+        else:
+            inventory = gen(shop.lower().strip(), mod)
+    toFile = input('Would you like to save to a file? ')
+    if toFile.lower().strip() in ('y', 'yes', 'ye'):
+        fileName = input('What file name? (Outputs to ./Shops/[filename].txt) ')
+        try:
+            with open('./Shops/' + fileName.strip() + '.txt', 'w') as file:
+                file.write(inventory)
+                print('Saved!')
+        except:
+            print('Something went wrong with the file name...')
 
 def spells(mod):
     '''
@@ -107,11 +116,13 @@ def gen(type, mod):
             if price < 0.1:
                 price = 0.1
             stock.append({ 'name': item['name'], 'num': num, 'price': round(price, 1) })
-
-    print('Item Name                       |  Price  | Stock')
-    print(divider)
+    inventory = ''
+    inventory += 'Item Name                       |  Price  | Stock\n'
+    inventory += divider + '\n'
     for item in stock:
-        line = '%-31s | %7.1f | %d'
-        print(line % (item['name'], item['price'], item['num']))
+        line = '%-31s | %7.1f | %d\n'
+        inventory += line % (item['name'], item['price'], item['num'])
+    print(inventory)
+    return inventory
 
 main()

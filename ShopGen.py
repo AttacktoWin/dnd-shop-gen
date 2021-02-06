@@ -21,7 +21,7 @@ def main():
 
     mod = size / 5
     types = ['spells', 'adventure', 'alchemist', 'artificer', 'general', 'smith', 'jeweler', 'tailor']
-    shop = input('What type of shop? [' + types.join(' ') + '] ')
+    shop = input('What type of shop? [' + ', '.join(types) + '] ')
     inventory = ''
     if shop.lower().strip() not in types:
         print('Invalid shop type: %s' % shop)

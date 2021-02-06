@@ -4,9 +4,9 @@ Orb,21,0.65,1,5
 Rod,10,0.8,1,10
 Staff,5,0.8,1,15
 Wand,10,0.8,1,15
-"Bottle, glass",2,0.75,1,20
+Glass Bottle,2,0.75,1,20
 Candle,0.01,0.8,2,15
-"Case, Map or Scroll",1,0.7,1,8
+Map or Scroll Case,1,0.7,1,8
 Component Pouch,25,0.8,1,15
 Sprig of Mistletoe,1,0.65,1,20
 Totem,1,0.6,1,15
